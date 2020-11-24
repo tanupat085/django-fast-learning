@@ -1,0 +1,13 @@
+ลง python 3.8.3 
+เช็ค version pip ; pip -V
+upgrade pip ; python -m pip install --upgrade pip 
+ลง environment ; python -m pip install virtualenv
+สร้าง folder xxx เพื่อเก็บไฟล์
+เข้าไปในไฟล์แล้วติดตั้ง env ; python -m virtualenv venv
+รัน env ; .\venv\scripts\activate
+***เข้าใน env แล้วว***
+ลง django ; pip install django==3.0
+สร้างไฟล์web ; django-admin startproject firstweb
+เข้าไปไนไฟล์ firstweb ; cd firstweb
+เปิด web ; python manage.py runserve
+เข้าด้วย localhost:8000 ที่หน้า google
